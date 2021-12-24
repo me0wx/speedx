@@ -43,11 +43,11 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>⚽Also Join our channel To Get movies❤\n✅You can use this bot now!\n😁 �</i>",
+                    text="<i>⚽Also Join our channel To Get movies❤\n✅You can use this bot now!\n😁</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Our channel�✔", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Our channel✔", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
